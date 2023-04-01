@@ -1,4 +1,9 @@
 
+// comparison is done using orange color:
+// red color shows minimum or maximum value (depending on the algorithm)
+// green color shows the sorted part of the array
+
+
 function compare(a, b) {
     div[a].style.backgroundColor = "orange";
     div[b].style.backgroundColor = "orange";

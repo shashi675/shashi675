@@ -22,7 +22,7 @@ async function selectionSort(btn) {
         await sleep();
     }
     updateColor(i, "green");
-    console.log(height);
+    // console.log(height);
     btn.classList.remove("selected-btn");
     enableBtns();
 }

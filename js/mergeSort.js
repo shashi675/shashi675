@@ -1,7 +1,9 @@
 
+// mid of array is displayed using black color
+
 async function mergeSort(btn) {
     await mergeS(0, height.length-1);
-    console.log(height);
+    // console.log(height);
     btn.classList.remove("selected-btn");
     enableBtns();
 }

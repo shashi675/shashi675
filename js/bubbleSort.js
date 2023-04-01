@@ -26,8 +26,7 @@ async function bubbleSort(btn) {
             break;
         }
     }
-    // updateColor(0, "green");        //for the last bar which is being left out blue
-    console.log(height);
+    // console.log(height);
     btn.classList.remove("selected-btn");
     enableBtns();
 }

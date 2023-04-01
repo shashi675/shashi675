@@ -11,7 +11,7 @@ async function heapSort(btn) {
         await sleep();
         await heapify(n, 0);
     }
-    console.log(height);
+    // console.log(height);
     btn.classList.remove("selected-btn");
     enableBtns();
 }

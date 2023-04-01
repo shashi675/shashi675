@@ -30,7 +30,7 @@ function createBars() {
         container.appendChild(bar);
         div.push(bar);
     }
-    console.log(height);
+    // console.log(height);
 }
 
 createBars();

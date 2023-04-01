@@ -24,7 +24,7 @@ async function insertionSort(btn) {
         }
         updateColor(temp, "green");
     }
-    console.log(height);
+    // console.log(height);
     btn.classList.remove("selected-btn");
     enableBtns();
 }
